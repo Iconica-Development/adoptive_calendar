@@ -743,7 +743,7 @@ class _AdoptiveCalendarState extends State<AdoptiveCalendar> {
 
     return PopScope(
       canPop: false,
-      onPopInvokedWithResult: (bool didPop, value) {
+      onPopInvoked: (bool didPop) {
         if (didPop) {
           return;
         }
